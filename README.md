@@ -45,3 +45,54 @@ Pessoas             |  Itens          |  Divisão          |  Conta
 ### Slide de apresentação 
 - [Slide de apresentação](https://docs.google.com/presentation/d/15mq2dUdt_M3D65YkpKG6ZdjggS56-ZTGGASTHvlcRGM/edit?usp=sharing) 
 
+## Localização dos Testes Unitários
+
+### Testes de Componentes
+
+** `src/modules/divide.test.tsx`**
+- **Responsável:** [João Vitor]
+- **Componente testado:** Divide (página de divisão de itens)
+- **Testes criados:** 8 testes
+- **Funcionalidades testadas:**
+  - Validação de seleção de itens
+  - Validação de quantidade zero
+  - Adição e incremento de partes (`handleIncreaseParts`)
+  - Decremento de partes (`handleDecreaseParts`)
+
+** `src/modules/items.test.tsx`**
+- **Responsável:** [Daniel Borges]
+- **Componente testado:** Items (página de cadastro de itens)
+- **Testes criados:** 9 testes
+- **Funcionalidades testadas:**
+  - Mensagem de lista vazia
+  - Validação de campos obrigatórios (descrição, valor, quantidade)
+  - Adição de itens (com e sem itens existentes)
+  - Remoção de itens
+  - Incremento e decremento de quantidade
+
+** `src/modules/people.test.tsx`**
+- **Responsável:** [Gabriel Ferraz]
+- **Componente testado:** People (página de gerenciamento de participantes)
+- **Testes criados:** 3 testes
+- **Funcionalidades testadas:**
+  - Adição de participantes
+  - Validação de nome vazio
+  - Remoção de participantes
+
+### Testes de Utilitários
+
+** `src/modules/receipt-utils.spec.ts`**
+- **Responsável:** [Henrique Santana]
+- **Módulo testado:** receipt-utils (funções de cálculo)
+- **Testes criados:** 10 testes
+- **Funcionalidades testadas:**
+  - `calculatePriceWithServiceTax`: cálculo com taxa de serviço
+  - `getParticipantTotal`: cálculo total por participante
+  - `getTotalPrice`: cálculo total geral
+
+### Como Executar os Testes
+
+```bash
+# Executar todos os testes
+npm test
+```
