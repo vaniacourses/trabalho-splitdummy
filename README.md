@@ -35,6 +35,12 @@ Pessoas             |  Itens          |  Divisão          |  Conta
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
 ![People page](https://github.com/B0RGESdaniel/splitdummy/blob/main/src/assets/readme-imgs/people.png)  | ![Items page](https://github.com/B0RGESdaniel/splitdummy/blob/main/src/assets/readme-imgs/items.png) | ![Divide page](https://github.com/B0RGESdaniel/splitdummy/blob/main/src/assets/readme-imgs/divide.png) | ![Receipt page](https://github.com/B0RGESdaniel/splitdummy/blob/main/src/assets/readme-imgs/receipt.png)
 
+## Projeto de Teste utilizando Testlink
+
+Utilizamos o Testlink para construir o Projeto de Testes da Tela de itens da aplicação
+
+O projeto está identificado na plataforma como **8s:splitdummy**
+
 ## Plano de Teste
 - [Plano de Teste - SplitDummy](https://docs.google.com/document/d/1uj8cpWXjAN9HqLvM98GBDVysH3Cvd9Q1OnGVNUWDLdo/edit?usp=sharing)
 
